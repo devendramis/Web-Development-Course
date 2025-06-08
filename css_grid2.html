@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border: 2px solid black;
+            display: grid;
+            grid-template-areas: "nav nav nav"
+                                " side article article"
+                                "footer footer footer"
+                                ;
+        }
+        .item{
+            border: 2px solid blueviolet;
+            height: 55px;
+            /* width: 50px; */
+        }
+        .item_1{
+            grid-area: nav;
+            border: 2px solid blueviolet;
+            background-color: aqua;
+        }
+        .item_2{
+            grid-area: side;
+            border: 2px solid blueviolet;
+            background-color: brown;
+        }
+        .item_3{
+            grid-area: article;
+            border: 2px solid blueviolet;
+            background-color: chartreuse;
+        }
+        .item_4{
+            grid-area: footer;
+            border: 2px solid blueviolet;
+            background-color: darkgreen;
+        }
+        /* .item_5{
+            grid-area: RAM;
+            border: 2px solid blueviolet;
+            background-color: darkgreen;
+        } */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item_1">1</div>
+        <div class="item_2">2</div>
+        <div class="item_3">3</div>
+        <div class="item_4">4</div>
+        <div class="item_5">5</div>
+    </div>
+</body>
+</html>

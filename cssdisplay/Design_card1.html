@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Create Cards</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      background: #fff;
+      width: 320px;
+      border-radius: 12px;
+      box-shadow: 0 5px 20px red;
+      overflow: hidden;
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 20px;
+    }
+
+    .car_name {
+      font-size: 1.4rem;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .car_function {
+      font-size: 0.95rem;
+      color: #666;
+      margin-bottom: 15px;
+      line-height: 1.5;
+    }
+
+    .car_button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: blue;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background-color 0.2s ease;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <img src="https://assets.nflxext.com/ffe/siteui/vlv3/202ac35e-1fca-44f0-98d9-ea7e8211a07c/web/IN-en-20250512-TRIFECTA-perspective_688b8c03-78cb-46a6-ac1c-1035536f871a_large.jpg">
+    <div class="card-content">
+      <h2 class="car_name">BMW F600</h2>
+      <p class="car_function">Rs.1.99 Cr · Petrol · 49.75 kmpl <br>Automatic · 4395 cc · 717 bhp <br>5 Seats</p>
+      <a href="#" class="car_button">Buy Car</a>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation in CSS</title>
+    <style>
+        .contaniner {
+            background-color: aqua;
+            height: 80vh;
+            width: 60vw;
+        }
+
+        .box {
+            background-color: chartreuse;
+            height: 34px;
+            width: 100px;
+            animation-name: harrykaAnimation;
+            animation-name: Devendrakaanimation;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-timing-function:ease-in-out;
+            /* animation-direction: reverse; */
+            /* animation-play-state: paused; */
+
+        }
+
+        @keyframes harrykaAnimation {
+            from {
+                background-color: crimson;
+            }
+
+            to {
+                transform: translateX(1500px);
+                background-color: darkmagenta;
+            }
+        }
+        @keyframes Devendrakaanimation{
+            0%{
+                transform: rotate(100deg);
+            }
+            20%{
+                transform: rotate(200deg);
+            }
+            40%{
+                transform: rotate(300deg);
+            }
+            60%{
+                transform: rotate(300deg);
+            }
+            80%{
+                transform: rotate(400deg);
+            }
+            100%{
+                transform: rotate(500deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contaniner">
+        <div class="box">
+            BOX
+        </div>
+    </div>
+</body>
+
+</html>

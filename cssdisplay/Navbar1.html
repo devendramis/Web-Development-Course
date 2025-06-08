@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Nav Bar</title>
+    <style>
+        :root {
+            --color-Home: green;
+            --color-About: yellow;
+            --color-Services: pink;
+            --color-Contact: skyblue;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(128, 128, 128);
+        }
+
+        .box {
+            padding: 15px 25px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        .box1 {
+            background-color: var(--color-Home);
+        }
+
+        .box2 {
+            background-color: var(--color-About);
+            color: black; /* yellow text on white is hard to read */
+        }
+
+        .box3 {
+            background-color: var(--color-Services);
+            color: black;
+        }
+
+        .box4 {
+            background-color: var(--color-Contact);
+            color: black;
+        }
+
+        .box:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="box box1">Home</div>
+        <div class="box box2">About</div>
+        <div class="box box3">Services</div>
+        <div class="box box4">Contact</div>
+    </nav>
+</body>
+</html>

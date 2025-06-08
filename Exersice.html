@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exersice Number 5 </title>
+    <style>
+        :root {
+            --color-Home: red;
+            --color-About: blue;
+            --color-Services: #6a2c70;
+            --color-Contact: #3b9ae1;
+            --color-rectangel: rgb(241, 237, 22);
+        }
+
+        * {
+            margin: 2px;
+            padding: 0px;
+        }
+
+        .bars {
+            display: flex;
+            border: 1px solid black;
+            justify-content: center;
+            align-items: center;
+            border-radius: 0px;
+            background-color: black;
+            position: sticky;
+            top: 0;
+        }
+
+        .bars div {
+            text-decoration: none;
+            padding: 15px 25px;
+            font-weight: bold;
+            color: white;
+        }
+
+        div.Home {
+            background-color: var(--color-Home);
+        }
+
+        div.About {
+            background-color: var(--color-About);
+        }
+
+        div.Services {
+            background-color: var(--color-Services);
+        }
+
+        div.Contact {
+            background-color: var(--color-Contact);
+        }
+
+        .bordor {
+            border: 5px solid blue;
+            border-radius: 10px;
+            height: 700px;
+            display: flex;
+            background-color: rgb(87, 216, 94);
+        }
+
+        div.rectangel {
+            padding: 0px;
+            margin: 120px;
+            border: 4px solid rgb(225, 7, 7);
+            border-radius: 10px;
+            height: 500px;
+            width: 600px;
+            align-items: center;
+            font-weight: lighter;
+            text-align: left;
+            justify-content: center;
+        }
+
+        div.rectangel {
+            background-color: var(--color-rectangel);
+        }
+
+        .rectangel:nth-child(2) {
+            background-color: rgb(255, 0, 98);
+            color: aliceblue;
+            font-weight: normal;
+            border: 3px solid blue;
+        }
+
+        .rectangel p {
+            padding: 10px;
+            font-size: 16px;
+            text-shadow: 1px 1px 2px gray;
+        }
+
+        nav.Welcome {
+            border: 2px solid black;
+            padding: 50px;
+            margin: 20px;
+            border-radius: 100px;
+            font-size: 60px;
+            text-align: center;
+            font-weight: bold;
+            background-color: black;
+            color: rgb(244, 244, 242);
+            text-shadow: 6px 2px 6px rgb(255, 225, 1);
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="bars">
+        <div class="Home">Home</div>
+        <div class="About">About</div>
+        <div class="Services">Services</div>
+        <div class="Contact">Contact</div>
+    </div>
+
+    <div class="bordor">
+        <div class="rectangel">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel illum odit ab minima nobis odio molestias!
+                Quibusdam beatae commodi animi odio eum saepe ab aperiam aut voluptas, vitae mollitia corporis adipisci
+                dolores excepturi est optio? Suscipit dolores repellendus mollitia aperiam, doloribus, velit, vel fugiat
+                dolore itaque voluptas accusamus illum! Laboriosam temporibus unde accusamus enim dolorum tempore amet
+                dolorem incidunt cum commodi fugiat rerum inventore, rem velit minus cumque, voluptas maiores nisi
+                tempora.
+                Debitis placeat quam fugiat a quae consequuntur quasi nemo, odio corrupti? Nemo dolore modi, aut at quis
+                quasi cupiditate totam natus possimus, pariatur debitis beatae vero error, praesentium accusamus
+                adipisci
+                sequi minima fuga qui fugit. Blanditiis voluptas, voluptatibus aliquid tempora quam ipsa necessitatibus
+                quisquam at cum. Ipsum, ad in sunt, dolores dolor quaerat, nesciunt rem neque dolorum exercitationem
+                ullam
+            </p>
+        </div>
+        <div class="rectangel">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel illum odit ab minima nobis
+                odio molestias!
+                Quibusdam beatae commodi animi odio eum saepe ab aperiam aut voluptas, vitae mollitia corporis adipisci
+                dolores excepturi est optio? Suscipit dolores repellendus mollitia aperiam, doloribus, velit, vel fugiat
+                dolore itaque voluptas accusamus illum! Laboriosam temporibus unde accusamus enim dolorum tempore amet
+                dolorem incidunt cum commodi fugiat rerum inventore, rem velit minus cumque, voluptas maiores nisi
+                tempora.
+                Debitis placeat quam fugiat a quae consequuntur quasi nemo, odio corrupti? Nemo dolore modi, aut at quis
+                quasi cupiditate totam natus possimus, pariatur debitis beatae vero error, praesentium accusamus
+                adipisci
+                sequi minima fuga qui fugit. Blanditiis voluptas, voluptatibus aliquid tempora quam ipsa necessitatibus
+                quisquam at cum. Ipsum, ad in sunt, dolores dolor quaerat, nesciunt rem neque dolorum exercitationem
+                ullam
+
+            </p>
+        </div>
+    </div>
+
+    <nav class="Welcome">
+        WELCOME TO MY FRIST WEBSITE VISIT
+    </nav>
+</body>
+
+</html>

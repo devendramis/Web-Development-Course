@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: red;
+        }
+
+        @media only screen and (max-width:455px) {
+            body {
+                background-color: yellow;
+            }
+        }
+
+        .boxes {
+            display: flex;
+        }
+
+        .box {
+            height: 344px;
+            width: 344px;
+            margin: 3px;
+            padding: 3px;
+            border: 5px solid blue;
+            background-color: rgb(255, 0, 179);
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        Hey i am a Good boy
+    </div>
+    <div class="boxes">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</body>
+
+</html>

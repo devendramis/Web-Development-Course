@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download UltraEdit text editor for Windows </title>
+    <style>
+        .logo {
+            height: 50px;
+            width: 50px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .right ul {
+            gap: 30px;
+            display: flex;
+            /* font-weight: bold; */
+        }
+
+        .right ul li {
+            list-style-type: none;
+            cursor: pointer;
+        }
+
+        .download ul {
+            justify-content: center;
+            display: flex;
+        }
+
+        .download ul li {
+            list-style-type: none;
+            font-size: 30px;
+            font-family: sans-serif;
+        }
+
+        .download img {
+            justify-content: center;
+            align-items: center;
+            padding: 15px;
+        }
+
+        .box {
+            padding: 10px;
+            gap: 20px;
+            border: 2px solid red;
+            height: 30px;
+            width: 120px;
+            border-radius: 10px;
+            font-size: 25px;
+            justify-content: space-evenly;
+            align-items: center;
+            text-shadow: 1px 1px 2px red;
+        }
+
+        .content1 {
+            text-align: center;
+            align-items: center;
+            font-size: 20px;
+            /* padding: 2px; */
+        }
+
+        .content1 p {
+            padding: 0%;
+        }
+
+        .content1 span button {
+            border: 2px solid rgb(255, 255, 255);
+            width: 300px;
+            height: 50px;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(84, 203, 205);
+            font-weight: 700px;
+            border-radius: 10px;
+            color: rgb(255, 255, 255);
+            cursor: pointer;
+            font-size: 15px;
+        }
+
+        .UL_logo {
+            display: flex;
+            justify-items: center;
+            align-items: center;
+            transform: translateX(37vh);
+            padding: 15px;
+        }
+
+        .small {
+            font-size: 12px;
+            justify-content: center;
+            align-items: center;
+            transform: translateY(6px);
+        }
+
+        .big {
+            font-size: 33px;
+            margin: 10px;
+        }
+
+        .lan {
+
+            transform: translateX(40vh);
+        }
+
+        .item {
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 12px;
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+        }
+
+        .blue {
+            background-color: rgb(84, 203, 205);
+            color: rgb(237, 3, 3);
+            border-radius: 5px;
+            height: 40px;
+            width: 140px;
+            border: #f9f9f9;
+        }
+
+        .blue a {
+            color: white;
+            font-size: medium;
+            /* font-weight: bold; */
+            text-decoration: none;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+
+        }
+
+
+        @media screen and (max-width: 1145px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .item :nth-child(3) {
+            background-color: rgb(7, 169, 7);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="https://www.ultraedit.com/wp-content/uploads/2023/01/Background-2.png" alt="Ultra edit"
+                    height="50px">
+            </div>
+            <div class="right">
+                <ul>
+                    <li>
+                        <spam>Product</spam><img src="https://cdn.hugeicons.com/icons/arrow-down-01-stroke-sharp.svg"
+                            alt="arrow" width="14px" height="14px">
+                    </li>
+                    <li>
+                        <spam>Pricing</spam><img src="https://cdn.hugeicons.com/icons/arrow-down-01-stroke-sharp.svg"
+                            alt="arrow" width="14px" height="14px">
+                    </li>
+                    <li>
+                        <spam>Resourses</spam> <img src="https://cdn.hugeicons.com/icons/arrow-down-01-stroke-sharp.svg"
+                            alt="arrow" width="14px" height="14px">
+                    </li>
+                    <li>
+                        <spam>About US </spam><img src="https://cdn.hugeicons.com/icons/arrow-down-01-stroke-sharp.svg"
+                            alt="arrow" width="14px" height="14px">
+                    </li>
+                    <li>
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAMAAADUMSJqAAAAY1BMVEX///8AAAD7+/vr6+v4+Pjm5uZoaGjPz8/w8PDd3d0qKirT09MxMTGNjY2+vr7z8/NbW1t0dHQVFRU/Pz+ysrK4uLgjIyMMDAwcHBzJycmUlJSoqKhPT0+ioqI2NjaBgYFGRkYQ8dtUAAAD/klEQVRogb1ZiZKrIBCMt3jiFU3iRv//K18iRwwCDhhfV23VFtEW5+gZxstFBw9Fj2rMrrXTD0kT5h0KfO0NYKDHNDoikuqvOMxcFvi6YSbo59w7tOk/BTFDdbOl9vPnDvdr+2FqRd3WAlGdNHOTDb2wHJobB1VfG6webXdLURygW9G292z9Y/Yw5L6t3FiHhSdEXozybPUGk2tA7T5WPlOFHLo3/CIcwMk/JsG6cAg+wdQgIHUwgqjfiHNmvr6FcbO3HVqAKdOQ7QTkVrbvJgLtxZ+Y3/cTymX2xmBpegzkjmQ3n+6UOzeQvRuNymbHjJ2JATkCmlShdkcRTfnJiPt1Hw2aXHNNiSE7kIG9sSYIqMFnk2z+vjVRbiuAel0Cn0bZXXUBjVhYrokoiVMThQ6kxCvYwihvtFqf5rs+0cKnsiH90SO/VZbcPJekWyf6OVjVxAUu0bBRFjCzVfqsgZQCRpPzUKszqOxCrFJbhgoBCYkmFtdpEti78w1iF2dTUKmwWXdQC7xRLqnkocOh7o8pDBaXiaxVBzvjbgn1RFwmvvg7xn1Jl3gZxGV8QLM+CJI3Sy+KF2lou4Pk7lOaLOSRh08LjdQAi7GutorIIY/Fxc1PaMenRCiNC+dM8vo3ZpEH3fU3Dp2lIpL9JBRJRG/ifPxhEtWlsDz9Jv0X617FZdIYGJ2cJCiWiM42zySxuCkiZiDlbBSXibUc+9r/hofldbgMDxd/Xua2FYcUkY3OG4FYBYvB8uqX6uNFNFGFHJViZQsMQLww1LI0J3bJDmgX6U7GrVV462/v0mhQvzvtI7ctDRDsfnke0m4xtCS/OToFoY8GHLOlIGr7VL04kQBntjJMrt34hZ+4bAxDxz/qo+IloOM482Cnia+tNoWz93IKbnr41x3PP0MLM6f6dEYjzZ8V6EG4NxlbsNlSv8PNZwtODi5KBfUUoHfw2LywAlYlPjnVG5wAsYEbaMAQsBGXA5sARQm9uJ72JNJtZ2cFSE9V8jt67YjcLb5mug6s7ylzfnn9p9q912F+VXY1YL+spvIZ/pOITVetDDKilP0LagijL2PWeYQQ8mK/9AKE0q5Z/5i8HclyFJbcXu58o09mXIXjcxDWMbFbytZh/SbC4pBfgqZlOsjZgcl9m7TEr0RbmxixTxxQ2Uvvmt1X0bd6B+wHuDBF0yiG88uJeJJkDJ+OGxQEN+0e00hDOWlwlXepXNbMYubzgNJ7IXj9xaVm+hAkVuxABCw/IBppzl6fuXePfZeAlxsD8K81RzpmJbznqexMjI+dglTsPJvOsPtn7z/6WP0f2WOeTWdYpmRf7U7JpphaZjNm/A07PaqcQn6Jq9Mk7PL+uj8Muf8PCNosHIKQh9kAAAAASUVORK5CYII="
+                            height="25px" width="25px">
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="download">
+        <ul>
+            <li>Download <b>UltraEdit</b> for Windows Reviews</li>
+            <img src="https://www.ultraedit.com/wp-content/uploads/2023/01/Stars.png" alt="Rating pic" height="20px"
+                width="100px">
+        </ul>
+    </div>
+    <div class="content1">
+        Download and try UltraEdit before you buy it! This download includes the full Windows
+        <p>version of the text
+            editor.</p>
+        <span>
+            <button>Download Mac and Windows </button>
+        </span>
+    </div>
+
+    <div class="UL_logo">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwHsJv7FxKhXgApLuu2lfnw65P50uwx50xEA&s"
+            alt="UE logo" height="50px" width="50px">
+        <div class="big">Download UltraEdit </div>
+        <div class="small">
+            v2023.3(released 30/05/2023)|Hotfix
+        </div>
+    </div>
+
+    <!-- Grid Start -->
+    <div class="grid">
+
+        <div class="item">
+            <div class="item_lang">English</div>
+            <button class="blue"><a href="/ue_english.exe">Download 32-bit</a></button>
+            <button class="blue"><a href="/ue_english.exe">Download 64-bit</a></button>
+        </div>
+
+        <div class="item">
+            <div class="item_lang">Язык (Yazyk)</div>
+            <button class="blue"><a href="/ue_english.exe">Download 32-bit</a></button>
+            <button class="blue"><a href="/ue_english.exe">Download 64-bit</a></button>
+        </div>
+
+        <div class="item">
+            <div class="item_lang">언어 (Eoneo)</div>
+            <button class="blue"><a href="/ue_english.exe">Download 32-bit</a></button>
+            <button class="blue"><a href="/ue_english.exe">Download 64-bit</a></button>
+        </div>
+
+        <div class="item">
+            <div class="item_lang">ভাষা (Bhasha)</div>
+            <button class="blue"><a href="/ue_english.exe">Download 32-bit</a></button>
+            <button class="blue"><a href="/ue_english.exe">Download 64-bit</a></button>
+        </div>
+
+        <div class="item">
+            <div class="item_lang"> Jazyk</div>
+            <button class="blue"><a href="/ue_english.exe">Download 32-bit</a></button>
+            <button class="blue"><a href="/ue_english.exe">Download 64-bit</a></button>
+        </div>
+
+        <div class="item">
+            <div class="item_lang"> ಭಾಷೆ (Bhāṣe)</div>
+            <button class="blue"><a href="/ue_english.exe">Download 32-bit</a></button>
+            <button class="blue"><a href="/ue_english.exe">Download 64-bit</a></button>
+        </div>
+
+        <div class="item">
+            <div class="item_lang"> ენა (Ena)</div>
+            <button class="blue"><a href="/ue_english.exe">Download 32-bit</a></button>
+            <button class="blue"><a href="/ue_english.exe">Download 64-bit</a></button>
+        </div>
+
+        <div class="item">
+            <div class="item_lang">زبان </div>
+            <button class="blue"><a href="/ue_english.exe">Download 32-bit</a></button>
+            <button class="blue"><a href="/ue_english.exe">Download 64-bit</a></button>
+        </div>
+
+        <div class="item">
+            <div class="item_lang">ಭಾಷೆ</div>
+            <button class="blue"><a href="/ue_english.exe">Download 32-bit</a></button>
+            <button class="blue"><a href="/ue_english.exe">Download 64-bit</a></button>
+        </div>
+
+        <div class="item">
+            <div class="item_lang"> Språk</div>
+            <button class="blue"><a href="/ue_english.exe">Download 32-bit</a></button>
+            <button class="blue"><a href="/ue_english.exe">Download 64-bit</a></button>
+        </div>
+
+        <div class="item">
+            <div class="item_lang">ਭਾਸ਼ਾ </div>
+            <button class="blue"><a href="/ue_english.exe">Download 32-bit</a></button>
+            <button class="blue"><a href="/ue_english.exe">Download 64-bit</a></button>
+        </div>
+
+        <div class="item">
+            <div class="item_lang">语言</div>
+            <button class="blue"><a href="/ue_english.exe">Download 32-bit</a></button>
+            <button class="blue"><a href="/ue_english.exe">Download 64-bit</a></button>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>

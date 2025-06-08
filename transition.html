@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition use</title>
+    <style>
+        .contanier {
+            background-color: aqua;
+            height: 700px;
+            width: 1500px;
+        }
+
+        .box {
+            background-color: brown;
+            height: 40px;
+            width: 300px;
+            transition-property: transform;
+            transition-duration: 3s;
+            transition-timing-function:ease-in-out;
+            transition-delay: 1s;
+        }
+
+        .translate {
+            transform: translateX(10vw) translateY(10vh);
+            cursor: pointer;
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contanier">
+        <div class="box translate">
+
+        </div>
+    </div>
+</body>
+
+</html>
